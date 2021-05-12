@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0C297B4264B79B9006A6CB5 /* Premier-League.png in Resources */ = {isa = PBXBuildFile; fileRef = F0C297B3264B79B9006A6CB5 /* Premier-League.png */; };
+		F0C297B6264B83D7006A6CB5 /* StandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C297B5264B83D7006A6CB5 /* StandingViewController.swift */; };
+		F0C297BB264B8DB9006A6CB5 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C297BA264B8DB9006A6CB5 /* TeamViewController.swift */; };
 		F0E1C246264B57CA001069D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1C245264B57CA001069D4 /* AppDelegate.swift */; };
 		F0E1C248264B57CA001069D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1C247264B57CA001069D4 /* SceneDelegate.swift */; };
-		F0E1C24A264B57CA001069D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1C249264B57CA001069D4 /* ViewController.swift */; };
+		F0E1C24A264B57CA001069D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1C249264B57CA001069D4 /* HomeViewController.swift */; };
 		F0E1C24D264B57CA001069D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E1C24B264B57CA001069D4 /* Main.storyboard */; };
 		F0E1C24F264B57CB001069D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E1C24E264B57CB001069D4 /* Assets.xcassets */; };
 		F0E1C252264B57CB001069D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E1C250264B57CB001069D4 /* LaunchScreen.storyboard */; };
+		F0E1C25B264B5846001069D4 /* teams.json in Resources */ = {isa = PBXBuildFile; fileRef = F0E1C25A264B5846001069D4 /* teams.json */; };
+		F0E1C25E264B5A73001069D4 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1C25D264B5A73001069D4 /* Team.swift */; };
+		F0E1C261264B5B00001069D4 /* TeamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1C260264B5B00001069D4 /* TeamManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0C297B3264B79B9006A6CB5 /* Premier-League.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Premier-League.png"; sourceTree = "<group>"; };
+		F0C297B5264B83D7006A6CB5 /* StandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingViewController.swift; sourceTree = "<group>"; };
+		F0C297BA264B8DB9006A6CB5 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
 		F0E1C242264B57CA001069D4 /* EPL Team Stat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EPL Team Stat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E1C245264B57CA001069D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0E1C247264B57CA001069D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F0E1C249264B57CA001069D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0E1C249264B57CA001069D4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F0E1C24C264B57CA001069D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0E1C24E264B57CB001069D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0E1C251264B57CB001069D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0E1C253264B57CB001069D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0E1C25A264B5846001069D4 /* teams.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teams.json; sourceTree = "<group>"; };
+		F0E1C25D264B5A73001069D4 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		F0E1C260264B5B00001069D4 /* TeamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F0C297B7264B83DB006A6CB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0E1C249264B57CA001069D4 /* HomeViewController.swift */,
+				F0C297B5264B83D7006A6CB5 /* StandingViewController.swift */,
+				F0C297BA264B8DB9006A6CB5 /* TeamViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F0E1C239264B57CA001069D4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +78,35 @@
 		F0E1C244264B57CA001069D4 /* EPL Team Stat */ = {
 			isa = PBXGroup;
 			children = (
+				F0E1C259264B5827001069D4 /* Data */,
+				F0E1C25F264B5AC9001069D4 /* Model */,
+				F0C297B7264B83DB006A6CB5 /* View */,
 				F0E1C245264B57CA001069D4 /* AppDelegate.swift */,
 				F0E1C247264B57CA001069D4 /* SceneDelegate.swift */,
-				F0E1C249264B57CA001069D4 /* ViewController.swift */,
 				F0E1C24B264B57CA001069D4 /* Main.storyboard */,
 				F0E1C24E264B57CB001069D4 /* Assets.xcassets */,
+				F0C297B3264B79B9006A6CB5 /* Premier-League.png */,
 				F0E1C250264B57CB001069D4 /* LaunchScreen.storyboard */,
 				F0E1C253264B57CB001069D4 /* Info.plist */,
 			);
 			path = "EPL Team Stat";
+			sourceTree = "<group>";
+		};
+		F0E1C259264B5827001069D4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F0E1C25A264B5846001069D4 /* teams.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F0E1C25F264B5AC9001069D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0E1C25D264B5A73001069D4 /* Team.swift */,
+				F0E1C260264B5B00001069D4 /* TeamManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +166,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0C297B4264B79B9006A6CB5 /* Premier-League.png in Resources */,
+				F0E1C25B264B5846001069D4 /* teams.json in Resources */,
 				F0E1C252264B57CB001069D4 /* LaunchScreen.storyboard in Resources */,
 				F0E1C24F264B57CB001069D4 /* Assets.xcassets in Resources */,
 				F0E1C24D264B57CA001069D4 /* Main.storyboard in Resources */,
@@ -137,9 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0E1C24A264B57CA001069D4 /* ViewController.swift in Sources */,
+				F0E1C25E264B5A73001069D4 /* Team.swift in Sources */,
+				F0E1C24A264B57CA001069D4 /* HomeViewController.swift in Sources */,
 				F0E1C246264B57CA001069D4 /* AppDelegate.swift in Sources */,
 				F0E1C248264B57CA001069D4 /* SceneDelegate.swift in Sources */,
+				F0C297B6264B83D7006A6CB5 /* StandingViewController.swift in Sources */,
+				F0E1C261264B5B00001069D4 /* TeamManager.swift in Sources */,
+				F0C297BB264B8DB9006A6CB5 /* TeamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
