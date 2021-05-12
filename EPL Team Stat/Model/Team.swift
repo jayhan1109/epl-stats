@@ -14,6 +14,7 @@ struct Teams: Codable{
 struct Team: Codable{
     var name: String
     var image: String
+    var color: String
     var standing: Int
     var stadium: String
     var stat: Stat

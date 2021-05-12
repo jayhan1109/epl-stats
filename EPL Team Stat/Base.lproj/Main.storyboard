@@ -321,14 +321,20 @@
                     </view>
                     <connections>
                         <outlet property="goalLabel" destination="m6S-dj-saB" id="FAV-Tu-6K7"/>
+                        <outlet property="goalTitle" destination="IW5-Uw-xK9" id="IZY-bB-ACW"/>
                         <outlet property="imgView" destination="F8Z-Uv-Eop" id="nUx-VZ-VWD"/>
                         <outlet property="loseLabel" destination="ecp-ql-Xa2" id="W3l-rs-Ngd"/>
+                        <outlet property="loseTitle" destination="ru0-8I-wnJ" id="zCv-6B-ZfQ"/>
                         <outlet property="matchLabel" destination="Bep-sk-Xkg" id="2yN-Sz-DT3"/>
+                        <outlet property="matchTitle" destination="imB-os-PNy" id="hg7-69-CLP"/>
                         <outlet property="nameLabel" destination="frX-16-qR5" id="Enr-vf-0z4"/>
                         <outlet property="stadiumLabel" destination="fq0-to-SAy" id="UkT-s9-mRg"/>
                         <outlet property="standingLabel" destination="rqZ-9C-boG" id="jPh-YF-Kt8"/>
+                        <outlet property="standingTitle" destination="uTq-YT-3Mm" id="u1I-ed-XF1"/>
                         <outlet property="winLabel" destination="K1y-By-eBe" id="jgL-Om-55b"/>
-                        <outlet property="winRate" destination="tJt-2f-3lY" id="ksc-4P-yc7"/>
+                        <outlet property="winRateLabel" destination="tJt-2f-3lY" id="ksc-4P-yc7"/>
+                        <outlet property="winRateTitle" destination="64u-US-y7U" id="nPv-LF-fps"/>
+                        <outlet property="winTitle" destination="Gc3-9u-wtT" id="yIj-fN-q8V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OVP-Cg-0EV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -3,6 +3,7 @@
         {
           "name": "Arsenal",
           "image": "arsenal",
+          "color": "#FE0002",
           "standing": 9,
           "stadium": "Emirates Stadium",
           "stat": {
@@ -15,6 +16,7 @@
         {
           "name": "Aston Villa",
           "image": "aston_villa",
+          "color": "#470025",
           "standing": 11,
           "stadium": "Villa Park",
           "stat": {
@@ -27,6 +29,7 @@
         {
           "name": "Brighton and Hove Albion",
           "image": "brighton",
+          "color": "#0154a5",
           "standing": 17,
           "stadium": "Amex Stadium",
           "stat": {
@@ -39,6 +42,7 @@
         {
           "name": "Burnley",
           "image": "burnley",
+          "color": "#6a003a",
           "standing": 15,
           "stadium": "Turf Moor",
           "stat": {
@@ -51,6 +55,7 @@
         {
           "name": "Chelsea",
           "image": "chelsea",
+          "color": "#0a4595",
           "standing": 4,
           "stadium": "Stamford Bridge",
           "stat": {
@@ -63,6 +68,7 @@
         {
           "name": "Crystal Palace",
           "image": "crystal_palace",
+          "color": "#ea302e",
           "standing": 13,
           "stadium": "Selhurst Park",
           "stat": {
@@ -75,6 +81,7 @@
         {
           "name": "Everton",
           "image": "everton",
+          "color": "#00369c",
           "standing": 8,
           "stadium": "Goodison Park",
           "stat": {
@@ -85,8 +92,9 @@
           }
         },
         {
-          "name": "Fullham",
-          "image": "fullham",
+          "name": "Fulham",
+          "image": "fulham",
+          "color": "#f5f5f5",
           "standing": 18,
           "stadium": "Craven Cottage",
           "stat": {
@@ -99,6 +107,7 @@
         {
           "name": "Leeds United",
           "image": "leeds_united",
+          "color": "#eadd1a",
           "standing": 10,
           "stadium": "Elland Road",
           "stat": {
@@ -111,6 +120,7 @@
         {
           "name": "Leicester",
           "image": "leicester",
+          "color": "#273d8a",
           "standing": 3,
           "stadium": "King Power Stadium",
           "stat": {
@@ -123,6 +133,7 @@
         {
           "name": "Liverpool",
           "image": "liverpool",
+          "color": "#e21a23",
           "standing": 6,
           "stadium": "Anfield",
           "stat": {
@@ -135,6 +146,7 @@
         {
           "name": "Manchester City",
           "image": "man_city",
+          "color": "#6cade0",
           "standing": 1,
           "stadium": "Etihad Stadium",
           "stat": {
@@ -147,6 +159,7 @@
         {
           "name": "Manchester United",
           "image": "man_united",
+          "color": "#d8181f",
           "standing": 2,
           "stadium": "Old Trafford",
           "stat": {
@@ -159,6 +172,7 @@
         {
           "name": "Newcastle United",
           "image": "newcastle_united",
+          "color": "#383838",
           "standing": 16,
           "stadium": "St. James' Park",
           "stat": {
@@ -171,6 +185,7 @@
         {
           "name": "Sheffield United",
           "image": "sheffield_united",
+          "color": "#ed1c24",
           "standing": 20,
           "stadium": "Bramall Lane",
           "stat": {
@@ -183,6 +198,7 @@
         {
           "name": "Southampton",
           "image": "southampton",
+          "color": "#d61920",
           "standing": 14,
           "stadium": "St. Mary's Stadium",
           "stat": {
@@ -195,6 +211,7 @@
         {
           "name": "Tottenham Hotspur",
           "image": "tottenham",
+          "color": "#f5f5f5",
           "standing": 7,
           "stadium": "Tottenham Hotspur Stadium",
           "stat": {
@@ -207,6 +224,7 @@
         {
           "name": "West Bromwich Albion",
           "image": "west_bromwich",
+          "color": "#f5f5f5",
           "standing": 19,
           "stadium": "The Hawthorns",
           "stat": {
@@ -219,6 +237,7 @@
         {
           "name": "West Ham United",
           "image": "west_ham",
+          "color": "#7d2b3b",
           "standing": 5,
           "stadium": "London Stadium",
           "stat": {
@@ -231,6 +250,7 @@
         {
           "name": "Wolverhampton Wanderers",
           "image": "wolverhampton",
+          "color": "#f8a01a",
           "standing": 12,
           "stadium": "Molineux Stadium",
           "stat": {
