@@ -1,7 +1,7 @@
 # EPL STATS
 ### Focus on TableView, Singleton Design pattern
 
-**Privacy Policy**
+## Privacy Policy
 
 Jeongho Han built the EPL Stats app as a Free app. This SERVICE is provided by Jeongho Han at no cost and is intended for use as is.
 
