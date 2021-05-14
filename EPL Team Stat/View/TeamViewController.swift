@@ -59,10 +59,10 @@ class TeamViewController: UIViewController {
             team?.name == "West Bromwich Albion" ||
             team?.name == "Wolverhampton Wanderers"){
             
-            print("yo")
             
             nameLabel.textColor = UIColorFromHex(rgbValue: "#2f2f2f")
             standingTitle.textColor = UIColorFromHex(rgbValue: "#2f2f2f")
+            stadiumLabel.textColor = UIColorFromHex(rgbValue: "#2f2f2f")
             matchTitle.textColor = UIColorFromHex(rgbValue: "#2f2f2f")
             winTitle.textColor = UIColorFromHex(rgbValue: "#2f2f2f")
             loseTitle.textColor = UIColorFromHex(rgbValue: "#2f2f2f")
