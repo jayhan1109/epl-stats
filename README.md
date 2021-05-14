@@ -1,9 +1,9 @@
 # EPL STATS
 ### Focus on TableView, Singleton Design pattern
 
-![1](https://user-images.githubusercontent.com/24958454/118328710-e55e2080-b4ba-11eb-801b-34a54071a6d2.png)
-![2](https://user-images.githubusercontent.com/24958454/118328715-e727e400-b4ba-11eb-9638-304ca43a122e.png)
-![3](https://user-images.githubusercontent.com/24958454/118328717-e7c07a80-b4ba-11eb-9a2e-7d880c82ae0b.png)
+![1](https://user-images.githubusercontent.com/24958454/118328959-484fb780-b4bb-11eb-8a42-2989a92a2980.png)
+![2](https://user-images.githubusercontent.com/24958454/118328961-4980e480-b4bb-11eb-8654-eaa9bede6913.png)
+![3](https://user-images.githubusercontent.com/24958454/118328963-4a197b00-b4bb-11eb-964d-865d7540b60a.png)
 
 
 
