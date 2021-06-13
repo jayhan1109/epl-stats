@@ -6,7 +6,8 @@
 ![1](https://user-images.githubusercontent.com/24958454/118329024-61586880-b4bb-11eb-913f-7965273a1955.png)
 ![2](https://user-images.githubusercontent.com/24958454/118329026-61f0ff00-b4bb-11eb-846e-b7c0e6a8ad06.png)
 ![3](https://user-images.githubusercontent.com/24958454/118329028-62899580-b4bb-11eb-8cff-3dc1026a8c92.png)
-![Simulator Screen Shot - iPhone 12 Pro Max - 2021-06-13 at 15 36 22](https://user-images.githubusercontent.com/24958454/121823981-a9ef7700-cc5d-11eb-80cc-1c259bb94809.png)
+![Simulator Screen Shot - iPhone 12 Pro Max - 2021-06-13 at 15 36 22 (1)](https://user-images.githubusercontent.com/24958454/121824006-d3a89e00-cc5d-11eb-94c7-14e31e66e830.png)
+
 
 
 ## Privacy Policy
