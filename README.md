@@ -1,8 +1,12 @@
 
+
 # EPL STATS
 ### Focus on TableView, Singleton Design pattern
 
+## DEMO
+![Simulator Screen Recording - iPhone 12 Pro Max - 2021-06-16 at 14 21 39](https://user-images.githubusercontent.com/24958454/122295575-398b6480-ceae-11eb-9d2b-5ad7194ceb13.gif)
 
+## Screenshots
 ![1](https://user-images.githubusercontent.com/24958454/118329024-61586880-b4bb-11eb-913f-7965273a1955.png)
 ![2](https://user-images.githubusercontent.com/24958454/118329026-61f0ff00-b4bb-11eb-846e-b7c0e6a8ad06.png)
 ![3](https://user-images.githubusercontent.com/24958454/118329028-62899580-b4bb-11eb-8cff-3dc1026a8c92.png)
