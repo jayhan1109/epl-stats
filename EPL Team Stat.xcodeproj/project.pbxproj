@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F0C297B4264B79B9006A6CB5 /* Premier-League.png in Resources */ = {isa = PBXBuildFile; fileRef = F0C297B3264B79B9006A6CB5 /* Premier-League.png */; };
+		F03EB23E2698E97B005371D1 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03EB23D2698E97B005371D1 /* Constant.swift */; };
 		F0C297B6264B83D7006A6CB5 /* StandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C297B5264B83D7006A6CB5 /* StandingViewController.swift */; };
 		F0C297BB264B8DB9006A6CB5 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C297BA264B8DB9006A6CB5 /* TeamViewController.swift */; };
 		F0E1C246264B57CA001069D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1C245264B57CA001069D4 /* AppDelegate.swift */; };
@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F0C297B3264B79B9006A6CB5 /* Premier-League.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Premier-League.png"; sourceTree = "<group>"; };
+		F03EB23D2698E97B005371D1 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		F0C297B5264B83D7006A6CB5 /* StandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingViewController.swift; sourceTree = "<group>"; };
 		F0C297BA264B8DB9006A6CB5 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
 		F0E1C242264B57CA001069D4 /* EPL Team Stat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EPL Team Stat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,14 +49,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F0C297B7264B83DB006A6CB5 /* View */ = {
+		F03EB23B2698E454005371D1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F0E1C24E264B57CB001069D4 /* Assets.xcassets */,
+				F0E1C245264B57CA001069D4 /* AppDelegate.swift */,
+				F0E1C247264B57CA001069D4 /* SceneDelegate.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F03EB23C2698E499005371D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0E1C24B264B57CA001069D4 /* Main.storyboard */,
+				F0E1C250264B57CB001069D4 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0C297B7264B83DB006A6CB5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				F0E1C249264B57CA001069D4 /* HomeViewController.swift */,
 				F0C297B5264B83D7006A6CB5 /* StandingViewController.swift */,
 				F0C297BA264B8DB9006A6CB5 /* TeamViewController.swift */,
 			);
-			path = View;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		F0E1C239264B57CA001069D4 = {
@@ -78,16 +97,13 @@
 		F0E1C244264B57CA001069D4 /* EPL Team Stat */ = {
 			isa = PBXGroup;
 			children = (
+				F03EB23B2698E454005371D1 /* Others */,
 				F0E1C259264B5827001069D4 /* Data */,
 				F0E1C25F264B5AC9001069D4 /* Model */,
-				F0C297B7264B83DB006A6CB5 /* View */,
-				F0E1C245264B57CA001069D4 /* AppDelegate.swift */,
-				F0E1C247264B57CA001069D4 /* SceneDelegate.swift */,
-				F0E1C24B264B57CA001069D4 /* Main.storyboard */,
-				F0E1C24E264B57CB001069D4 /* Assets.xcassets */,
-				F0C297B3264B79B9006A6CB5 /* Premier-League.png */,
-				F0E1C250264B57CB001069D4 /* LaunchScreen.storyboard */,
+				F03EB23C2698E499005371D1 /* View */,
+				F0C297B7264B83DB006A6CB5 /* Controller */,
 				F0E1C253264B57CB001069D4 /* Info.plist */,
+				F03EB23D2698E97B005371D1 /* Constant.swift */,
 			);
 			path = "EPL Team Stat";
 			sourceTree = "<group>";
@@ -166,7 +182,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0C297B4264B79B9006A6CB5 /* Premier-League.png in Resources */,
 				F0E1C25B264B5846001069D4 /* teams.json in Resources */,
 				F0E1C252264B57CB001069D4 /* LaunchScreen.storyboard in Resources */,
 				F0E1C24F264B57CB001069D4 /* Assets.xcassets in Resources */,
@@ -184,6 +199,7 @@
 				F0E1C25E264B5A73001069D4 /* Team.swift in Sources */,
 				F0E1C24A264B57CA001069D4 /* HomeViewController.swift in Sources */,
 				F0E1C246264B57CA001069D4 /* AppDelegate.swift in Sources */,
+				F03EB23E2698E97B005371D1 /* Constant.swift in Sources */,
 				F0E1C248264B57CA001069D4 /* SceneDelegate.swift in Sources */,
 				F0C297B6264B83D7006A6CB5 /* StandingViewController.swift in Sources */,
 				F0E1C261264B5B00001069D4 /* TeamManager.swift in Sources */,
@@ -341,7 +357,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jayhan.EPL-Team-Stat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -361,7 +377,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jayhan.EPL-Team-Stat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
