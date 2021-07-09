@@ -46,7 +46,7 @@ class TeamViewController: UIViewController {
         
         guard let team = team else { return }
         
-        let outlets = [nameLabel, stadiumLabel, standingTitle, matchTitle, winTitle, loseTitle,goalTitle, winRateTitle]
+        let outlets = [nameLabel, stadiumLabel, standingTitle, matchTitle, winTitle, loseTitle, goalTitle, winRateTitle]
         
         nameLabel.text = team.name
         imgView.image = UIImage(named: team.image)
@@ -58,14 +58,15 @@ class TeamViewController: UIViewController {
         goalLabel.text = "\(team.stat.goals)"
         winRateLabel.text = String(format: "%.0f", Double(team.stat.wins * 100) / Double(team.stat.matches + team.stat.loses)) + "%"
         
-        // Set different background color by the kind of team
+        _ = outlets.map { label in
+            label?.backgroundColor = UIColorFromHex(rgbValue: team.color)
+        }
+        
+        // Set text color for the teams in bright team list
         if(K.Teams.brightTeams.contains(team.name)){
+            print("yoyo")
             _ = outlets.map { label in
-                label?.backgroundColor = UIColorFromHex(rgbValue: K.Color.brightTeamColor)
-            }
-        } else {
-            _ = outlets.map { label in
-                label?.backgroundColor = UIColorFromHex(rgbValue: team.color)
+                label?.textColor = UIColorFromHex(rgbValue: K.Color.brightTeamColor)
             }
         }
     }
