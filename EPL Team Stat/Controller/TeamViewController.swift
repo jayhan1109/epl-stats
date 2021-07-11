@@ -58,14 +58,14 @@ class TeamViewController: UIViewController {
         goalLabel.text = "\(team.stat.goals)"
         winRateLabel.text = String(format: "%.0f", Double(team.stat.wins * 100) / Double(team.stat.matches + team.stat.loses)) + "%"
         
-        _ = outlets.map { label in
+        outlets.forEach { label in
             label?.backgroundColor = UIColorFromHex(rgbValue: team.color)
         }
         
         // Set text color for the teams in bright team list
         if(K.Teams.brightTeams.contains(team.name)){
             print("yoyo")
-            _ = outlets.map { label in
+            outlets.forEach { label in
                 label?.textColor = UIColorFromHex(rgbValue: K.Color.brightTeamColor)
             }
         }

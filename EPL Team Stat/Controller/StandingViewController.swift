@@ -14,6 +14,7 @@ class StandingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Sort teams by standing
         TeamManager.shared.sortByStanding()
     }
     
