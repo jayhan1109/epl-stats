@@ -1,0 +1,264 @@
+{
+    "teams": [
+        {
+          "name": "Arsenal",
+          "image": "arsenal",
+          "color": "#FE0002",
+          "standing": 9,
+          "stadium": "Emirates Stadium",
+          "stat": {
+            "matches": 1111,
+            "wins": 594,
+            "loses": 236,
+            "goals": 1950
+          }
+        },
+        {
+          "name": "Aston Villa",
+          "image": "aston_villa",
+          "color": "#470025",
+          "standing": 11,
+          "stadium": "Villa Park",
+          "stat": {
+            "matches": 997,
+            "wins": 339,
+            "loses": 368,
+            "goals": 1207
+          }
+        },
+        {
+          "name": "Brighton and Hove Albion",
+          "image": "brighton",
+          "color": "#0154a5",
+          "standing": 17,
+          "stadium": "Amex Stadium",
+          "stat": {
+            "matches": 149,
+            "wins": 35,
+            "loses": 65,
+            "goals": 145
+          }
+        },
+        {
+          "name": "Burnley",
+          "image": "burnley",
+          "color": "#6a003a",
+          "standing": 15,
+          "stadium": "Turf Moor",
+          "stat": {
+            "matches": 263,
+            "wins": 76,
+            "loses": 125,
+            "goals": 266
+          }
+        },
+        {
+          "name": "Chelsea",
+          "image": "chelsea",
+          "color": "#0a4595",
+          "standing": 4,
+          "stadium": "Stamford Bridge",
+          "stat": {
+            "matches": 1111,
+            "wins": 596,
+            "loses": 242,
+            "goals": 1894
+          }
+        },
+        {
+          "name": "Crystal Palace",
+          "image": "crystal_palace",
+          "color": "#ea302e",
+          "standing": 13,
+          "stadium": "Selhurst Park",
+          "stat": {
+            "matches": 461,
+            "wins": 133,
+            "loses": 214,
+            "goals": 493
+          }
+        },
+        {
+          "name": "Everton",
+          "image": "everton",
+          "color": "#00369c",
+          "standing": 8,
+          "stadium": "Goodison Park",
+          "stat": {
+            "matches": 1110,
+            "wins": 406,
+            "loses": 391,
+            "goals": 1447
+          }
+        },
+        {
+          "name": "Fulham",
+          "image": "fulham",
+          "color": "#f5f5f5",
+          "standing": 18,
+          "stadium": "Craven Cottage",
+          "stat": {
+            "matches": 567,
+            "wins": 162,
+            "loses": 252,
+            "goals": 629
+          }
+        },
+        {
+          "name": "Leeds United",
+          "image": "leeds_united",
+          "color": "#eadd1a",
+          "standing": 10,
+          "stadium": "Elland Road",
+          "stat": {
+            "matches": 503,
+            "wins": 204,
+            "loses": 169,
+            "goals": 694
+          }
+        },
+        {
+          "name": "Leicester",
+          "image": "leicester",
+          "color": "#273d8a",
+          "standing": 3,
+          "stadium": "King Power Stadium",
+          "stat": {
+            "matches": 572,
+            "wins": 195,
+            "loses": 227,
+            "goals": 755
+          }
+        },
+        {
+          "name": "Liverpool",
+          "image": "liverpool",
+          "color": "#e21a23",
+          "standing": 6,
+          "stadium": "Anfield",
+          "stat": {
+            "matches": 1111,
+            "wins": 577,
+            "loses": 259,
+            "goals": 1916
+          }
+        },
+        {
+          "name": "Manchester City",
+          "image": "man_city",
+          "color": "#6cade0",
+          "standing": 1,
+          "stadium": "Etihad Stadium",
+          "stat": {
+            "matches": 921,
+            "wins": 442,
+            "loses": 275,
+            "goals": 1548
+          }
+        },
+        {
+          "name": "Manchester United",
+          "image": "man_united",
+          "color": "#d8181f",
+          "standing": 2,
+          "stadium": "Old Trafford",
+          "stat": {
+            "matches": 1112,
+            "wins": 686,
+            "loses": 179,
+            "goals": 2123
+          }
+        },
+        {
+          "name": "Newcastle United",
+          "image": "newcastle_united",
+          "color": "#383838",
+          "standing": 16,
+          "stadium": "St. James' Park",
+          "stat": {
+            "matches": 993,
+            "wins": 367,
+            "loses": 372,
+            "goals": 1327
+          }
+        },
+        {
+          "name": "Sheffield United",
+          "image": "sheffield_united",
+          "color": "#ed1c24",
+          "standing": 20,
+          "stadium": "Bramall Lane",
+          "stat": {
+            "matches": 195,
+            "wins": 51,
+            "loses": 94,
+            "goals": 185
+          }
+        },
+        {
+          "name": "Southampton",
+          "image": "southampton",
+          "color": "#d61920",
+          "standing": 14,
+          "stadium": "St. Mary's Stadium",
+          "stat": {
+            "matches": 845,
+            "wins": 264,
+            "loses": 353,
+            "goals": 1033
+          }
+        },
+        {
+          "name": "Tottenham Hotspur",
+          "image": "tottenham",
+          "color": "#f5f5f5",
+          "standing": 7,
+          "stadium": "Tottenham Hotspur Stadium",
+          "stat": {
+            "matches": 1111,
+            "wins": 478,
+            "loses": 357,
+            "goals": 1669
+          }
+        },
+        {
+          "name": "West Bromwich Albion",
+          "image": "west_bromwich",
+          "color": "#f5f5f5",
+          "standing": 19,
+          "stadium": "The Hawthorns",
+          "stat": {
+            "matches": 491,
+            "wins": 117,
+            "loses": 235,
+            "goals": 507
+          }
+        },
+        {
+          "name": "West Ham United",
+          "image": "west_ham",
+          "color": "#7d2b3b",
+          "standing": 5,
+          "stadium": "London Stadium",
+          "stat": {
+            "matches": 955,
+            "wins": 317,
+            "loses": 394,
+            "goals": 1168
+          }
+        },
+        {
+          "name": "Wolverhampton Wanderers",
+          "image": "wolverhampton",
+          "color": "#f8a01a",
+          "standing": 12,
+          "stadium": "Molineux Stadium",
+          "stat": {
+            "matches": 263,
+            "wins": 75,
+            "loses": 116,
+            "goals": 290
+          }
+        }
+      ]
+}
