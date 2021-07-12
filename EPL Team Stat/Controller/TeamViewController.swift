@@ -74,10 +74,12 @@ class TeamViewController: UIViewController {
     // Return UIColor with hex color string
     func UIColorFromHex(rgbValue:String, alpha:Double = 1.0)->UIColor {
         
-        if let hexValue = UInt(String(rgbValue.suffix(6)), radix: 16) {
-            let red = CGFloat((hexValue & 0xFF0000) >> 16)/256.0
-            let green = CGFloat((hexValue & 0xFF00) >> 8)/256.0
-            let blue = CGFloat(hexValue & 0xFF)/256.0
+        // Get last 6 characters and set it as hex string
+        if let hexValue = UInt32(String(rgbValue.suffix(6)), radix: 16) {
+            // Get red, green, blue with bit And and Shift operator
+            let red = CGFloat((hexValue & 0xFF0000) >> 16)/255.0
+            let green = CGFloat((hexValue & 0x00FF00) >> 8)/255.0
+            let blue = CGFloat(hexValue & 0x0000FF)/255.0
 
             return UIColor(red:red, green:green, blue:blue, alpha:CGFloat(alpha))
         }
