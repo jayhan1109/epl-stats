@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F03EB23E2698E97B005371D1 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03EB23D2698E97B005371D1 /* Constant.swift */; };
+		F0462FF0269BD8DF007FC6EF /* Unit_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0462FEF269BD8DF007FC6EF /* Unit_Test.swift */; };
+		F0462FFE269BD8E7007FC6EF /* UI_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0462FFD269BD8E7007FC6EF /* UI_Test.swift */; };
+		F0463006269BD9F3007FC6EF /* teams.json in Resources */ = {isa = PBXBuildFile; fileRef = F0463005269BD9F2007FC6EF /* teams.json */; };
+		F0463009269BDA15007FC6EF /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0463007269BDA15007FC6EF /* Team.swift */; };
+		F046300A269BDA15007FC6EF /* TeamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0463008269BDA15007FC6EF /* TeamManager.swift */; };
 		F0C297B6264B83D7006A6CB5 /* StandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C297B5264B83D7006A6CB5 /* StandingViewController.swift */; };
 		F0C297BB264B8DB9006A6CB5 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C297BA264B8DB9006A6CB5 /* TeamViewController.swift */; };
 		F0E1C246264B57CA001069D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1C245264B57CA001069D4 /* AppDelegate.swift */; };
@@ -21,8 +26,34 @@
 		F0E1C261264B5B00001069D4 /* TeamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1C260264B5B00001069D4 /* TeamManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F0462FF2269BD8DF007FC6EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0E1C23A264B57CA001069D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0E1C241264B57CA001069D4;
+			remoteInfo = "EPL Team Stat";
+		};
+		F0463000269BD8E7007FC6EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0E1C23A264B57CA001069D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0E1C241264B57CA001069D4;
+			remoteInfo = "EPL Team Stat";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		F03EB23D2698E97B005371D1 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F0462FED269BD8DF007FC6EF /* Unit Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0462FEF269BD8DF007FC6EF /* Unit_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_Test.swift; sourceTree = "<group>"; };
+		F0462FF1269BD8DF007FC6EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0462FFB269BD8E7007FC6EF /* UI Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0462FFD269BD8E7007FC6EF /* UI_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_Test.swift; sourceTree = "<group>"; };
+		F0462FFF269BD8E7007FC6EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0463005269BD9F2007FC6EF /* teams.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teams.json; sourceTree = "<group>"; };
+		F0463007269BDA15007FC6EF /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		F0463008269BDA15007FC6EF /* TeamManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamManager.swift; sourceTree = "<group>"; };
 		F0C297B5264B83D7006A6CB5 /* StandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingViewController.swift; sourceTree = "<group>"; };
 		F0C297BA264B8DB9006A6CB5 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
 		F0E1C242264B57CA001069D4 /* EPL Team Stat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EPL Team Stat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +70,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F0462FEA269BD8DF007FC6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0462FF8269BD8E7007FC6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0E1C23F264B57CA001069D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,6 +113,27 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F0462FEE269BD8DF007FC6EF /* Unit Test */ = {
+			isa = PBXGroup;
+			children = (
+				F0463007269BDA15007FC6EF /* Team.swift */,
+				F0463008269BDA15007FC6EF /* TeamManager.swift */,
+				F0463005269BD9F2007FC6EF /* teams.json */,
+				F0462FEF269BD8DF007FC6EF /* Unit_Test.swift */,
+				F0462FF1269BD8DF007FC6EF /* Info.plist */,
+			);
+			path = "Unit Test";
+			sourceTree = "<group>";
+		};
+		F0462FFC269BD8E7007FC6EF /* UI Test */ = {
+			isa = PBXGroup;
+			children = (
+				F0462FFD269BD8E7007FC6EF /* UI_Test.swift */,
+				F0462FFF269BD8E7007FC6EF /* Info.plist */,
+			);
+			path = "UI Test";
+			sourceTree = "<group>";
+		};
 		F0C297B7264B83DB006A6CB5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				F0E1C244264B57CA001069D4 /* EPL Team Stat */,
+				F0462FEE269BD8DF007FC6EF /* Unit Test */,
+				F0462FFC269BD8E7007FC6EF /* UI Test */,
 				F0E1C243264B57CA001069D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				F0E1C242264B57CA001069D4 /* EPL Team Stat.app */,
+				F0462FED269BD8DF007FC6EF /* Unit Test.xctest */,
+				F0462FFB269BD8E7007FC6EF /* UI Test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +198,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F0462FEC269BD8DF007FC6EF /* Unit Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0462FF6269BD8DF007FC6EF /* Build configuration list for PBXNativeTarget "Unit Test" */;
+			buildPhases = (
+				F0462FE9269BD8DF007FC6EF /* Sources */,
+				F0462FEA269BD8DF007FC6EF /* Frameworks */,
+				F0462FEB269BD8DF007FC6EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0462FF3269BD8DF007FC6EF /* PBXTargetDependency */,
+			);
+			name = "Unit Test";
+			productName = "Unit Test";
+			productReference = F0462FED269BD8DF007FC6EF /* Unit Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0462FFA269BD8E7007FC6EF /* UI Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0463002269BD8E7007FC6EF /* Build configuration list for PBXNativeTarget "UI Test" */;
+			buildPhases = (
+				F0462FF7269BD8E7007FC6EF /* Sources */,
+				F0462FF8269BD8E7007FC6EF /* Frameworks */,
+				F0462FF9269BD8E7007FC6EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0463001269BD8E7007FC6EF /* PBXTargetDependency */,
+			);
+			name = "UI Test";
+			productName = "UI Test";
+			productReference = F0462FFB269BD8E7007FC6EF /* UI Test.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		F0E1C241264B57CA001069D4 /* EPL Team Stat */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0E1C256264B57CB001069D4 /* Build configuration list for PBXNativeTarget "EPL Team Stat" */;
@@ -154,6 +260,14 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					F0462FEC269BD8DF007FC6EF = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F0E1C241264B57CA001069D4;
+					};
+					F0462FFA269BD8E7007FC6EF = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F0E1C241264B57CA001069D4;
+					};
 					F0E1C241264B57CA001069D4 = {
 						CreatedOnToolsVersion = 12.5;
 					};
@@ -173,11 +287,28 @@
 			projectRoot = "";
 			targets = (
 				F0E1C241264B57CA001069D4 /* EPL Team Stat */,
+				F0462FEC269BD8DF007FC6EF /* Unit Test */,
+				F0462FFA269BD8E7007FC6EF /* UI Test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F0462FEB269BD8DF007FC6EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0463006269BD9F3007FC6EF /* teams.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0462FF9269BD8E7007FC6EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0E1C240264B57CA001069D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -192,6 +323,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F0462FE9269BD8DF007FC6EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0463009269BDA15007FC6EF /* Team.swift in Sources */,
+				F0462FF0269BD8DF007FC6EF /* Unit_Test.swift in Sources */,
+				F046300A269BDA15007FC6EF /* TeamManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0462FF7269BD8E7007FC6EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0462FFE269BD8E7007FC6EF /* UI_Test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0E1C23E264B57CA001069D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -208,6 +357,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0462FF3269BD8DF007FC6EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0E1C241264B57CA001069D4 /* EPL Team Stat */;
+			targetProxy = F0462FF2269BD8DF007FC6EF /* PBXContainerItemProxy */;
+		};
+		F0463001269BD8E7007FC6EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0E1C241264B57CA001069D4 /* EPL Team Stat */;
+			targetProxy = F0463000269BD8E7007FC6EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F0E1C24B264B57CA001069D4 /* Main.storyboard */ = {
@@ -229,6 +391,84 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F0462FF4269BD8DF007FC6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T79F4XUAMW;
+				INFOPLIST_FILE = "Unit Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayhan.Unit-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPL Team Stat.app/EPL Team Stat";
+			};
+			name = Debug;
+		};
+		F0462FF5269BD8DF007FC6EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T79F4XUAMW;
+				INFOPLIST_FILE = "Unit Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayhan.Unit-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPL Team Stat.app/EPL Team Stat";
+			};
+			name = Release;
+		};
+		F0463003269BD8E7007FC6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T79F4XUAMW;
+				INFOPLIST_FILE = "UI Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayhan.UI-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EPL Team Stat";
+			};
+			name = Debug;
+		};
+		F0463004269BD8E7007FC6EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T79F4XUAMW;
+				INFOPLIST_FILE = "UI Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayhan.UI-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EPL Team Stat";
+			};
+			name = Release;
+		};
 		F0E1C254264B57CB001069D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -388,6 +628,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F0462FF6269BD8DF007FC6EF /* Build configuration list for PBXNativeTarget "Unit Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0462FF4269BD8DF007FC6EF /* Debug */,
+				F0462FF5269BD8DF007FC6EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0463002269BD8E7007FC6EF /* Build configuration list for PBXNativeTarget "UI Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0463003269BD8E7007FC6EF /* Debug */,
+				F0463004269BD8E7007FC6EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F0E1C23D264B57CA001069D4 /* Build configuration list for PBXProject "EPL Team Stat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
